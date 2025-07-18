@@ -19,20 +19,20 @@ CORS(app) # Enable CORS for all routes, allowing frontend to access
 MODELS_DIR = '.' # Assuming models are in the same directory as app.py
 
 # Diabetes Model Assets
-DIABETES_MODEL_PATH = os.path.join(MODELS_DIR, 'C:/Users/Mani Tejeswar Reddy/OneDrive/Documents/Aptitude/Disease Prediction/saved_models/diabetes_svm_model.joblib')
-DIABETES_SCALER_PATH = os.path.join(MODELS_DIR, 'C:/Users/Mani Tejeswar Reddy/OneDrive/Documents/Aptitude/Disease Prediction/saved_models/diabetes_scaler.joblib')
-DIABETES_MEANS_PATH = os.path.join(MODELS_DIR, 'C:/Users/Mani Tejeswar Reddy/OneDrive/Documents/Aptitude/Disease Prediction/saved_models/diabetes_train_means.joblib')
-DIABETES_IQR_BOUNDS_PATH = os.path.join(MODELS_DIR, 'C:/Users/Mani Tejeswar Reddy/OneDrive/Documents/Aptitude/Disease Prediction/saved_models/diabetes_train_iqr_bounds.joblib')
+DIABETES_MODEL_PATH = os.path.join(MODELS_DIR, 'diabetes_svm_model.joblib')
+DIABETES_SCALER_PATH = os.path.join(MODELS_DIR, 'diabetes_scaler.joblib')
+DIABETES_MEANS_PATH = os.path.join(MODELS_DIR, 'diabetes_train_means.joblib')
+DIABETES_IQR_BOUNDS_PATH = os.path.join(MODELS_DIR, 'diabetes_train_iqr_bounds.joblib')
 
 # Heart Disease Model Assets
-HEART_MODEL_PATH = os.path.join(MODELS_DIR, 'C:/Users/Mani Tejeswar Reddy/OneDrive/Documents/Aptitude/Disease Prediction/saved_models/heart_disease_svm_model.joblib')
-HEART_SCALER_PATH = os.path.join(MODELS_DIR, 'C:/Users/Mani Tejeswar Reddy/OneDrive/Documents/Aptitude/Disease Prediction/saved_models/heart_disease_scaler.joblib')
-HEART_IQR_BOUNDS_PATH = os.path.join(MODELS_DIR, 'C:/Users/Mani Tejeswar Reddy/OneDrive/Documents/Aptitude/Disease Prediction/saved_models/heart_disease_train_iqr_bounds.joblib')
+HEART_MODEL_PATH = os.path.join(MODELS_DIR, 'heart_disease_svm_model.joblib')
+HEART_SCALER_PATH = os.path.join(MODELS_DIR, 'heart_disease_scaler.joblib')
+HEART_IQR_BOUNDS_PATH = os.path.join(MODELS_DIR, 'heart_disease_train_iqr_bounds.joblib')
 
 # Parkinson's Disease Model Assets
-PARKINSONS_MODEL_PATH = os.path.join(MODELS_DIR, 'C:/Users/Mani Tejeswar Reddy/OneDrive/Documents/Aptitude/Disease Prediction/saved_models/parkinsons_svm_model.joblib')
-PARKINSONS_SCALER_PATH = os.path.join(MODELS_DIR, 'C:/Users/Mani Tejeswar Reddy/OneDrive/Documents/Aptitude/Disease Prediction/saved_models/parkinsons_scaler.joblib')
-PARKINSONS_IQR_BOUNDS_PATH = os.path.join(MODELS_DIR, 'C:/Users/Mani Tejeswar Reddy/OneDrive/Documents/Aptitude/Disease Prediction/saved_models/parkinsons_train_iqr_bounds.joblib')
+PARKINSONS_MODEL_PATH = os.path.join(MODELS_DIR, 'parkinsons_svm_model.joblib')
+PARKINSONS_SCALER_PATH = os.path.join(MODELS_DIR, 'parkinsons_scaler.joblib')
+PARKINSONS_IQR_BOUNDS_PATH = os.path.join(MODELS_DIR, 'parkinsons_train_iqr_bounds.joblib')
 
 # --- Load all models and preprocessing objects on application startup ---
 # This ensures they are loaded once and available for all requests
